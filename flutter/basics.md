@@ -9,15 +9,9 @@
   * (1) $ flutter run (from the VS Code terminal)
   * (2) debug -> run ->  (from VS Code)
 
-  * Hot reload: r  OR thunder icon.
+  * Hot reload: r  OR thunder icon OR save.
 
 
-
-
-
-* (1) flutter run 
-
-  
 
 ## files and folders
 
@@ -39,7 +33,7 @@
 
 
 
-* MaterialApp class: named arguments.
+* MaterialApp class: named arguments. {} 
 
 ```dart
 class Person {
@@ -82,7 +76,10 @@ We have different types of widgets in flutter.
 
 * stateless  widget 
 
-* setState() = trigger that informs Flutter that it needs to re-run build() of the widget.
+* setState()
+
+  * = trigger that informs Flutter that it needs to re-run build() of the widget.
+  * is a function that forces Flutter to re-render the user interface.
 
 * state 버뀌면 widget 을 re-render 해야 한다고 말해줘야. (you can't re-build the widget for every user action or else your app performance will be terrible)
 
@@ -90,9 +87,13 @@ We have different types of widgets in flutter.
 
   (you CAN add and also change properties in a StatelessWidget, there is no way of telling Flutter that it should re-run build() upon such changes.)
 
+* good convention = only one widget per file.
+* 
 
+## Dart
 
-
+* private class: _ 
+* final : will not change
 
 ## IDE
 
