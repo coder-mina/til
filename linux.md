@@ -4,6 +4,7 @@
   * chmod 700 hello.sh
   * ./hello.sh
   * ex) ffmpeg -i movie.mov -vcodec copy -acodec copy out.mp4 (convert mov to mp4)
+  * grep -r -l 'keyword' . (-r recursive, -l print only file names, . for the current directory)
 
 ## Conda
 
